@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+
+<configuration>
+
+<settings>
+
+<setting name="jdbcTypeForNull" value="NULL"/>
+
+</settings>
+
+<alisases>
+	<alisas type="com.mycompany.myapp09.mamber.model.vo.Member" alisas="Member " > </alisas>
+</alisases>
+
+<mappers>
+	<mapper resource="member-mapper.xml"> </mapper>
+</mappers>
+
+</configuration>
